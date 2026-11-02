@@ -1,0 +1,15 @@
+{
+  "name": "solana-paper-sniper",
+  "version": "0.1.0",
+  "description": "Paper-trading-only Solana token sniping bot (simulation, no real trades)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "simulate": "node src/run-simulation.js"
+  },
+  "license": "MIT"
+}
